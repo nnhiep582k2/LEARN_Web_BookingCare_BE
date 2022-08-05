@@ -1,0 +1,30 @@
+{
+  "name": "firstproject",
+  "version": "1.0.0",
+  "description": "my first project by sern",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node src/server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "NNHiep",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/core": "^7.18.5",
+    "@babel/node": "^7.18.5",
+    "@babel/preset-env": "^7.18.2",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "ejs": "^3.1.8",
+    "express": "^4.18.1",
+    "lodash": "^4.17.21",
+    "mysql2": "^2.3.3",
+    "nodemailer": "^6.7.7",
+    "nodemon": "^2.0.16",
+    "sequelize": "^6.21.0",
+    "sequelize-cli": "^6.2.0",
+    "uuid": "^8.3.2"
+  }
+}
